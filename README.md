@@ -70,5 +70,3 @@ The page you build contains the titles, summaries and section headings of your n
 ## Credits
 
 Built by [Muhammad Shoaib Amin](https://muhammadshoaibamin.com/portfolio), founder of Adminless.
-
-Inspired by the `/3d-brain` skill in Nate Herk's [AIS-OS](https://github.com/nateherkai/AIS-OS) starter kit. Rendering by [three.js](https://threejs.org). Released under the MIT licence, so you are free to use it, change it and share it.
