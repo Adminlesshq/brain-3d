@@ -1,0 +1,6 @@
+# Built pages contain text from your notes. Keep them out of this repo.
+brain.html
+*.brain.html
+__pycache__/
+.DS_Store
+Thumbs.db

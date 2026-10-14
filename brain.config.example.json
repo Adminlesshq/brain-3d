@@ -1,0 +1,30 @@
+{
+  "_readme": "Copy this file into your notes folder as brain.config.json and change what you need. Every setting is optional. Keys starting with _ are ignored.",
+
+  "name": "Acme brain",
+  "center": "AGENTS.md",
+
+  "categories": [
+    { "label": "Core",       "root_files": true, "inner": true, "color": "#F5F3EF", "description": "Files at the top of the folder" },
+    { "label": "Docs",       "folders": ["docs"],                "color": "#F5A623", "description": "How the business runs" },
+    { "label": "Skills",     "folders": [".claude/skills", "skills"], "color": "#4FC3F7" },
+    { "label": "Clients",    "folders": ["clients"],             "color": "#B388FF" },
+    { "label": "Decisions",  "folders": ["decisions"],           "color": "#90A4AE" }
+  ],
+
+  "exclude": [".git", "node_modules", ".obsidian", "archive", "drafts/*"],
+  "include_hidden": [".claude"],
+  "private": ["finance/*", "personal/*"],
+  "stub_words": 60,
+
+  "logo": "logo.svg",
+  "credit": true,
+
+  "theme": {
+    "background": "#000000",
+    "text": "#F5F3EF",
+    "muted": "#8F8A84",
+    "accent": "#F5A623",
+    "alert": "#D64532"
+  }
+}
